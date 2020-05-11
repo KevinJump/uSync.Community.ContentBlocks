@@ -2,6 +2,13 @@
 
 This package adds a [uSync Value mapper](https://docs.jumoo.co.uk/uSync/v8/extend/valuemapper/) and Dependency checker for [Perplex.ContentBlocks](https://our.umbraco.com/packages/backoffice-extensions/perplexcontentblocks/) to [uSync](https://github.com/KevinJump/uSync8).
 
+## Installing
+via NuGet.
+
+```
+>install-package uSync.Community.ContentBlocks -pre
+```
+
 ## Do I need this ?
 Maybe not - You may not need this mapper it does two things - so it depends on them.
 
