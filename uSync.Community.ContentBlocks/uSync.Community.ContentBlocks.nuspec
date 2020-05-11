@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>uSync.Community.ContentBlocks</id>
+    <version>8.0.0</version>
+    <title>uSync ContentBlocks Mappers</title>
+    <authors>Kevin Jump</authors>
+    <owners>Kevin Jump</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description><![CDATA[Content Mappers and Dependency Checkers for Perplex Content Blocks, lets you publish content blocks and all their dependencies via uSync.Publisher]]></description>
+    <releaseNotes><![CDATA[8.0 Initial Release]]></releaseNotes>
+    <tags>umbraco usync</tags>
+    <dependencies>
+      <dependency id="uSync.ContentEdition.Core" version="8.6.2" />
+      <dependency id="Perplex.ContentBlocks" version="1.2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\release\uSync.Community.ContentBlocks.dll" target="lib\net472" />
+  </files>
+</package>
